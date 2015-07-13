@@ -1,0 +1,47 @@
+{
+  "name": "tv-tracker",
+  "version": "1.0.0",
+  "description": "learn tv-tracker using koa-angular",
+  "main": "server.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js --harmony server.js",
+    "gulp": "gulp"
+  },
+  "engines": {
+    "node": "0.12.4"
+  },
+  "keywords": [
+    "angular",
+    "koajs"
+  ],
+  "author": "bram",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^0.8.3",
+    "co": "~4.5.4",
+    "co-bcrypt": "^1.0.0",
+    "co-body": "^2.0.0",
+    "co-monk": "~1.0.0",
+    "co-request": "~0.2.1",
+    "co-views": "^1.0.0",
+    "koa": "^0.21.0",
+    "koa-jsonp": "^0.1.2",
+    "koa-logger": "^1.2.2",
+    "koa-request": "^1.0.0",
+    "koa-route": "^2.4.2",
+    "koa-static": "^1.4.9",
+    "lodash": "~3.10.0",
+    "monk": "~1.0.1",
+    "nodemon": "^1.3.7",
+    "request": "~2.58.0",
+    "swig": "^1.4.2",
+    "thunkify": "~2.1.2",
+    "xml2js": "~0.4.9",
+    "koa-jwt": "~1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "~2.0.3"
+  }
+}
